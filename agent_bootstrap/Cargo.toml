@@ -1,0 +1,13 @@
+[package]
+name = "gosh-agent-bootstrap"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+aes-gcm.workspace = true
+anyhow.workspace = true
+base64.workspace = true
+gosh-agent-runtime.workspace = true
+serde.workspace = true
+x25519-dalek.workspace = true
